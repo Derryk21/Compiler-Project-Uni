@@ -1,0 +1,25 @@
+=== VIM (FOR NEOVIM, SEE BELOW) ===
+
+To link the the ALAN vim syntax file to your personal vim configuration (and,
+first, to ensure the necessary directories exist), execute the following on the
+command line (from the current directory):
+
+mkdir -p ~/.vim/syntax && ln -s $PWD/alan.vim ~/.vim/syntax/
+
+Now, the syntax file is available in your account, but it will not be loaded
+automatically when you open or read an ALAN file.  Do the following on the
+command line to ensure that the lexer is automatically applied to files with
+the file extension ".alan":
+
+echo -e '" ALAN\nau BufRead,BufNewFile *.alan setfiletype alan' >> ~/.vim/filetype.vim
+echo -e 'au FileType alan set autoindent expandtab softtabstop=4 shiftwidth=4 tabstop=4 textwidth=80' >> ~/.vimrc
+
+
+=== FOR NEOVIM ===
+
+If you have redirected your ~/.config/nvim/init.vim file to ~/.vimrc, then the
+instructions above will work.  Otherwise, do the following:
+
+mkdir -p ~/.config/nvim/syntax && ln -s $PWD/alan.vim ~/.config/nvim/syntax/
+echo -e '" ALAN\nau BufRead,BufNewFile *.alan setfiletype alan' >> ~/.config/nvim/filetype.vim
+echo -e 'au FileType alan set autoindent expandtab softtabstop=4 shiftwidth=4 tabstop=4 textwidth=80' >> ~/.config/nvim/init.vim

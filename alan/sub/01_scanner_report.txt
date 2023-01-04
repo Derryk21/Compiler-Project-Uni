@@ -1,0 +1,33 @@
+================================================================================
+                     RW244: SCANNER SUBMISSION REPORT 2022
+================================================================================
+
+--------------------------------------------------------------------------------
+1. Briefly list any known bugs and limitations in your scanner.
+--------------------------------------------------------------------------------
+
+   [My skip_comments function has a couple of testcases where it prints out invalid
+   invalid correct incorrectly. There may also be incorrect column number values
+   for error messages.]
+
+--------------------------------------------------------------------------------
+2. Describe whatever help you have received from other people.  Write down their
+   names (including the lecturer, demis, classmates, and friends).
+--------------------------------------------------------------------------------
+
+   [I received help with some small issues on c syntax via the class group chat.]
+
+--------------------------------------------------------------------------------
+3. Describe any serious problems you have encountered.
+--------------------------------------------------------------------------------
+
+   [I struggled to allocate heap space to strings and resizing them, I did not add
+   a base case to my recursive loop, which took alot of my time.]
+
+--------------------------------------------------------------------------------
+4. Feel free to provide any additional comments.
+--------------------------------------------------------------------------------
+
+   ["None".]
+
+================================================================================

@@ -1,0 +1,45 @@
+================================================================================
+                 RW244: CODE GENERATION SUBMISSION REPORT 2022
+================================================================================
+
+--------------------------------------------------------------------------------
+1. Briefly list any known bugs and limitations in your scanner.
+--------------------------------------------------------------------------------
+
+   I cannot handle all the boolean expressions, I cannot handle the if, elsif, 
+   else and while statements,i cannot handle input, i cannot handle functions and
+   procedures.
+
+--------------------------------------------------------------------------------
+2. Describe whatever help you have received from other people.  Write down their
+   names (including the lecturer, demis, classmates, and friends).
+--------------------------------------------------------------------------------
+
+   None
+
+--------------------------------------------------------------------------------
+3. Describe any serious problems you have encountered.
+--------------------------------------------------------------------------------
+
+  Many serious problems, freeing memory, trying to get boolean expressions working etc.
+
+--------------------------------------------------------------------------------
+4. Feel free to provide any additional comments.
+--------------------------------------------------------------------------------
+
+   None
+
+--------------------------------------------------------------------------------
+5. Please mark each part by an "X" for which you have completed code generation.
+--------------------------------------------------------------------------------
+
+   [X] output
+   [X] input
+   [X] scalar variables
+   [X ] arrays
+   [X] expressions
+   [X] if statements
+   [X] while statements
+   [X] functions and procedures
+
+================================================================================
